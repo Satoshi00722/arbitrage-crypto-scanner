@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Terms of Use — Arbitrage Crypto Scanner</title>
+<style>
+:root{
+  --bg:#0b1220;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+  --card: rgba(15,23,42,.62);
+  --card-weak: rgba(15,23,42,.48);
+  --stroke: rgba(255,255,255,.10);
+  --stroke-strong: rgba(255,255,255,.18);
+  --brand:#60a5fa;
+  --accent:#22d3ee;
+  --bg-image:url('img/ac-bg.png');
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+  color:var(--text);
+  background: radial-gradient(1200px 800px at 50% 12%, #0b1220, #091221 55%, #08101d 100%);
+  min-height:100dvh;
+}
+
+/* background with logo */
+.page-bg::before{
+  content:"";
+  position:fixed; inset:0; z-index:-2; pointer-events:none;
+  background:
+    radial-gradient(900px 600px at 50% 8%, rgba(37,99,235,.18), rgba(14,165,233,.08) 40%, rgba(0,0,0,0) 70%),
+    var(--bg-image) no-repeat center 120px / clamp(320px, 38vw, 620px);
+  opacity:.6;
+}
+.page-bg::after{
+  content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background:linear-gradient(180deg, rgba(7,12,22,.2) 0%, rgba(7,12,22,.58) 35%, rgba(7,12,22,.9) 100%);
+}
+
+/* header */
+header{
+  background:rgba(7,12,22,.35);
+  color:#fff; padding:28px 16px;
+  position:sticky; top:0; z-index:10;
+  border-bottom:1px solid var(--stroke);
+  backdrop-filter:saturate(130%) blur(8px);
+}
+.container{max-width:1080px;margin:0 auto;padding:0 16px}
+h1{font-size:28px;margin:4px 0}
+h2{font-size:22px;margin:24px 0 12px}
+.lead{opacity:.9;color:#cbd5e1}
+
+/* cards */
+main{max-width:900px;margin:0 auto;padding:24px}
+section{
+  background:var(--card);
+  border:1px solid var(--stroke);
+  border-radius:16px;
+  padding:20px;
+  margin:14px 0;
+  box-shadow:0 6px 24px rgba(0,0,0,.28);
+  backdrop-filter: blur(10px) saturate(120%);
+}
+
+/* links */
+a{color:var(--brand);text-decoration:none}
+a:hover{color:var(--accent)}
+
+footer{padding:32px 0 40px;color:var(--muted);text-align:center}
+ol{padding-left:18px}
+</style>
+</head>
+<body>
+<div class="page-bg"></div>
+
+<header>
+  <div class="container">
+    <h1>Terms of Use</h1>
+    <div class="muted">Last updated: 25.08.2025</div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <p>By using the <b>Arbitrage Crypto Scanner</b> application, you agree to the terms below. If you do not accept these terms, please do not use the app.</p>
+  </section>
+  <section>
+    <h2>1. Purpose of the Product</h2>
+    <p>The app provides informational data about spreads and potential arbitrage opportunities. It is not an investment recommendation or a call to action.</p>
+  </section>
+  <section>
+    <h2>2. Limitation of Liability</h2>
+    <p>We do not guarantee profit and are not responsible for any losses incurred when using the app. Markets are volatile, and fees and liquidity may change.</p>
+  </section>
+  <section>
+    <h2>3. Payments and Refunds</h2>
+    <p>Paid features are provided “as is.” Refund conditions, if applicable, are determined by the policies of the respective app stores.</p>
+  </section>
+  <section>
+    <h2>4. Updates and Changes</h2>
+    <p>We may update the app and these terms. By continuing to use the app after changes are published, you accept the updated terms.</p>
+  </section>
+  <section>
+    <h2>5. Contact</h2>
+    <p><a href="mailto:arbitrage.scanner.help@gmail.com">arbitrage.scanner.help@gmail.com</a></p>
+  </section>
+  <section class="muted">
+    <p><a href="index.html">← Back to Home</a></p>
+  </section>
+</main>
+
+<footer>© 2025 Arbitrage Crypto Scanner</footer>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Arbitrage Crypto Scanner — Support & Free Trial</title>
+<meta name="description" content="Official support page of Arbitrage Crypto Scanner: features, screenshots, contacts, privacy policy.">
+<meta property="og:title" content="Arbitrage Crypto Scanner — Support">
+<meta property="og:description" content="Automatic crypto arbitrage scanner with CEX + DEX coverage. 100+ coins, real-time signals. 1-day free trial.">
+<meta property="og:type" content="website">
+
+<!-- 🔥 Favicon -->
+<link rel="shortcut icon" href="favicon.png" type="image/png"/>
+
+<style>
+:root{
+  --bg:#0b1220;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+  --card: rgba(15,23,42,.62);
+  --card-weak: rgba(15,23,42,.48);
+  --stroke: rgba(255,255,255,.10);
+  --stroke-strong: rgba(255,255,255,.18);
+  --brand:#60a5fa;
+  --accent:#22d3ee;
+  --bg-image: url('../img/ac-bg.png');
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+  color:var(--text);
+  background: radial-gradient(1200px 800px at 50% 12%, #0b1220, #091221 55%, #08101d 100%);
+  min-height:100dvh;
+}
+.page-bg::before{
+  content:"";
+  position:fixed; inset:0; z-index:-2; pointer-events:none;
+  background:
+    radial-gradient(900px 600px at 50% 8%, rgba(37,99,235,.18), rgba(14,165,233,.08) 40%, rgba(0,0,0,0) 70%),
+    var(--bg-image) no-repeat center 120px / clamp(320px, 38vw, 620px);
+  opacity:.6;
+}
+.page-bg::after{
+  content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background:linear-gradient(180deg, rgba(7,12,22,.2) 0%, rgba(7,12,22,.58) 35%, rgba(7,12,22,.9) 100%);
+}
+header{
+  background:rgba(7,12,22,.35);
+  color:#fff; padding:28px 16px;
+  position:sticky; top:0; z-index:10;
+  border-bottom:1px solid var(--stroke);
+  backdrop-filter:saturate(130%) blur(8px);
+}
+.container{max-width:1080px;margin:0 auto;padding:0 16px}
+h1{font-size:28px;margin:4px 0}
+h2{font-size:22px;margin:24px 0 12px}
+.lead{opacity:.9;color:#cbd5e1}
+.lang-switch{
+  position:fixed; top:16px; right:16px; z-index:20;
+  display:inline-block; padding:8px 12px; border-radius:10px;
+  border:1px solid var(--stroke-strong);
+  background:var(--card-weak); color:#e5e7eb; text-decoration:none;
+}
+.lang-switch:hover{border-color:var(--accent)}
+section{
+  background:var(--card);
+  border:1px solid var(--stroke);
+  border-radius:16px;
+  padding:24px;
+  margin:18px 0;
+  box-shadow:0 6px 24px rgba(0,0,0,.28);
+  backdrop-filter: blur(10px) saturate(120%);
+}
+.badges{display:flex;gap:12px;flex-wrap:wrap}
+.store-btn{
+  display:flex;align-items:center;gap:10px;
+  border:1.5px solid var(--stroke);
+  padding:10px 14px;border-radius:14px;
+  text-decoration:none;color:#e5e7eb;background:var(--card-weak);
+  box-shadow:0 4px 14px rgba(0,0,0,.3);
+  transition:transform .15s ease, border-color .2s ease, background .2s ease;
+}
+.store-btn:hover{transform:translateY(-1px); border-color:var(--stroke-strong); background:rgba(15,23,42,.64)}
+.store-btn small{display:block;line-height:1;color:var(--muted);font-size:12px}
+.store-btn .brand{font-weight:700;font-size:18px}
+.store-btn img{width:40px;height:40px;filter:none}
+.features{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px
+}
+.feature{
+  background:rgba(255,255,255,.03);
+  border:1px dashed var(--stroke);
+  border-radius:12px;padding:14px;color:#dbeafe;
+}
+.gallery{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px
+}
+.gallery img{
+  width:100%;height:auto;border-radius:16px;border:1px solid var(--stroke);
+  cursor:pointer;transition:transform .2s, box-shadow .2s
+}
+.gallery img:hover{
+  transform:scale(1.01);
+  box-shadow:0 10px 30px rgba(0,0,0,.35)
+}
+a{color:var(--brand)}
+a:hover{color:var(--accent)}
+footer{padding:32px 0 40px;color:var(--muted);background:transparent}
+.links{display:flex;gap:16px;flex-wrap:wrap}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+.modal.open{display:flex}
+.modal img{max-width:95vw;max-height:90vh;border-radius:16px}
+#faq{padding:28px}
+.faq-toolbar{display:flex;justify-content:flex-end;margin:-6px 0 10px}
+.toggle-all{
+  background:var(--card-weak); border:1px solid var(--stroke);
+  color:#e5e7eb; border-radius:10px; padding:8px 12px; cursor:pointer;
+}
+.toggle-all:hover{border-color:var(--stroke-strong)}
+.faq-wrap{display:grid;gap:12px;max-width:880px}
+.faq-item{background:var(--card); border:1px solid var(--stroke); border-radius:12px; overflow:hidden}
+.faq-q{width:100%; text-align:left; background:transparent; color:#e5e7eb;
+  border:0; padding:16px 18px; font-weight:700; cursor:pointer;
+  display:flex; align-items:center; gap:10px}
+.faq-q .icon{margin-left:auto; transition:transform .25s ease; opacity:.9}
+.faq-q:focus-visible{outline:3px solid rgba(99,102,241,.4); outline-offset:2px; border-radius:10px}
+.faq-a{padding:0 18px; color:#cbd5e1; max-height:0; overflow:hidden;
+  transition:max-height .32s ease, padding .28s ease, opacity .28s ease; opacity:.65;}
+.faq-item.open .faq-q .icon{transform:rotate(45deg)}
+.faq-item.open .faq-a{padding:0 18px 16px; max-height:420px; opacity:1}
+</style>
+</head>
+<body>
+<a class="lang-switch" href="../">RU</a>
+<div class="page-bg"></div>
+
+<header>
+  <div class="container">
+    <div class="lead">Official support page</div>
+    <h1>Arbitrage Crypto Scanner</h1>
+  </div>
+</header>
+
+<main class="container">
+  <section id="about">
+    <h2>About the app</h2>
+    <p><strong>Arbitrage Crypto Scanner</strong> helps traders discover arbitrage opportunities between exchanges and track the best prices in real time. The app scans CEX and DEX venues, accounts for fees, gas and slippage, and helps you act faster without manual monitoring.</p>
+    <div class="features">
+      <div class="feature">Scanning across <b>CEX + DEX</b> on major networks (ETH, BSC, Arbitrum, etc.).</div>
+      <div class="feature">Accounting for <b>fees, gas, slippage</b> and minimal trade size.</div>
+      <div class="feature">Filters by network, exchange, coin, and profit threshold (e.g. &gt; 1%).</div>
+      <div class="feature">Spread & profit alerts (Push/Email/Telegram*).</div>
+    </div>
+    <p class="muted"><small>* Alerts depend on your plan and device permissions.</small></p>
+  </section>
+
+  <section id="download">
+    <h2>Open the app</h2>
+    <div class="badges">
+      <a href="https://arbitragecryptoscanner.onrender.com" target="_blank" rel="noopener" class="store-btn">
+        <img src="https://img.icons8.com/ios-filled/40/ffffff/internet.png" alt="Web">
+        <div><small>Open in</small><span class="brand">Web App</span></div>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=your.app.id" target="_blank" rel="noopener" class="store-btn">
+        <img src="https://img.icons8.com/color/40/google-play.png" alt="Google Play">
+        <div><small>Coming to</small><span class="brand">Google Play</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>If you have questions or something isn’t clear, contact us:</p>
+    <ul>
+      <li>Telegram: <a href="https://t.me/Satoshi228" target="_blank" rel="noopener">@Satoshi228</a></li>
+      <li>Email: <a href="mailto:arbitrage.scanner.help@gmail.com">arbitrage.scanner.help@gmail.com</a></li>
+    </ul>
+    <div class="links">
+      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../terms.html">Terms of Use</a>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="faq-toolbar"><button class="toggle-all" type="button" id="toggleAll">Expand all</button></div>
+    <h2>FAQ</h2>
+    <div class="faq-wrap" role="list">
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" aria-controls="a1" id="q1">
+        How does the app work?<span class="icon">＋</span></button>
+        <div class="faq-a" id="a1"><p>The scanner compares prices across CEX and DEX exchanges while accounting for fees and gas. When a profitable spread appears, you’ll see a signal and trade parameters.</p></div>
+      </div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" aria-controls="a2" id="q2">
+        Is there a free version?<span class="icon">＋</span></button>
+        <div class="faq-a" id="a2"><p>Yes, the first 24 hours are free. After that, it’s subscription-based. You can cancel anytime via your app store.</p></div>
+      </div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" aria-controls="a3" id="q3">
+        Which exchanges are supported?<span class="icon">＋</span></button>
+        <div class="faq-a" id="a3"><p>Binance, Bybit, OKX, KuCoin, Gate.io, HTX, MEXC, Bitget, and more. DEX examples: Uniswap, SushiSwap, PancakeSwap, 1inch, QuickSwap, etc.</p></div>
+      </div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" aria-controls="a4" id="q4">
+        Do you account for fees and slippage?<span class="icon">＋</span></button>
+        <div class="faq-a" id="a4"><p>Yes. We include trading fees, network/gas fees, estimated slippage and minimum trade size in calculations.</p></div>
+      </div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" aria-controls="a5" id="q5">
+        How often are signals updated?<span class="icon">＋</span></button>
+        <div class="faq-a" id="a5"><p>Automatically every 5 minutes, plus there’s a manual refresh button inside the app.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="muted">
+    <div class="links">
+      <span>© 2025 Arbitrage Crypto Scanner</span>
+      <span>Last updated: 25.08.2025</span>
+    </div>
+  </footer>
+</main>
+
+<div id="lightbox" class="modal"><img id="lightboxImg" alt="Screenshot"></div>
+
+<script>
+const box=document.getElementById('lightbox');
+const boxImg=document.getElementById('lightboxImg');
+document.querySelectorAll('.gallery img').forEach(img=>{
+  img.addEventListener('click',()=>{boxImg.src=img.src;box.classList.add('open');});
+});
+box.addEventListener('click',()=>box.classList.remove('open'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')box.classList.remove('open');});
+const faqItems=document.querySelectorAll('.faq-item');
+faqItems.forEach(item=>{
+  const btn=item.querySelector('.faq-q'); const panel=item.querySelector('.faq-a');
+  const getH=()=>{panel.style.maxHeight='none';const h=panel.scrollHeight;panel.style.maxHeight='';return h;};
+  btn.addEventListener('click',()=>{
+    const isOpen=item.classList.contains('open');
+    faqItems.forEach(i=>{if(i!==item){i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false');i.querySelector('.faq-a').style.maxHeight='0px';}});
+    if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');panel.style.maxHeight=getH()+'px';setTimeout(()=>{panel.style.maxHeight='420px';},340);}
+    else{item.classList.remove('open');btn.setAttribute('aria-expanded','false');panel.style.maxHeight='0px';}
+  });
+});
+const toggleAll=document.getElementById('toggleAll');let allOpen=false;
+toggleAll.addEventListener('click',()=>{
+  allOpen=!allOpen;
+  faqItems.forEach(item=>{
+    const btn=item.querySelector('.faq-q'); const panel=item.querySelector('.faq-a');
+    if(allOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');panel.style.maxHeight=panel.scrollHeight+'px';setTimeout(()=>{panel.style.maxHeight='420px';},340);}
+    else{item.classList.remove('open');btn.setAttribute('aria-expanded','false');panel.style.maxHeight='0px';}
+  });
+  toggleAll.textContent=allOpen?'Collapse all':'Expand all';
+});
+</script>
+</body>
+</html>
+
